@@ -60,25 +60,25 @@ def buscarjogador():
  
         if not encontrado:
             print("jogador nao encontrado")
+
+while True:
+     print("1 - cadastrar jogador")
+     print("2 - ver ranking")
+     print("3 - buscar jogador")
+     print("4 - sair ")
  
-    while True:
-        print("1 - cadastrar jogador")
-        print("2 - ver ranking")
-        print("3 - buscar jogador")
-        print("4 - sair ")
+     opcao = input("escolha uma opção: ")
  
-        opcao = input("escolha uma opção: ")
- 
-        if opcao == "1":
+     if opcao == "1":
             cadastrarjogador()
-        elif opcao == "2":
+     elif opcao == "2":
             verRanking()
-        elif opcao == "3":
+     elif opcao == "3":
             buscarjogador()
-        elif opcao == "4":
+     elif opcao == "4":
             print("saindo do sistema ......")
             break
-        else:
+     else:
             print("opção invalida")
            
                        
